@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nodejs-rest-http-w0sz
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/bgriggs-tenant/nodejs-rest-http/nodejs-rest-http-w0sz@sha256:f92497652f6fc020832a58685dcb4f1fe95b9344ec590e8906b4817b7b9645fe
+        name: my-nodejs
+        resources: {}
+status: {}
