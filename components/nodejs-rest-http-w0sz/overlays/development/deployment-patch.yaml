@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: nodejs-rest-http-w0sz
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
